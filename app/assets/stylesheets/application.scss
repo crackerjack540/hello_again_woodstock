@@ -1,0 +1,29 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* header */
+
+ul.nav {
+	font-size: 2em;
+}
+
+/* body */
+
+body {
+	background-color: black;
+	color: white;
+	padding-top: 50px;
+	padding-left: 20px;
+	text-align: center;
+}
+
+h1 {
+	
+}
+
+h1.apps {
+	background-color: #006633;
+	border-style: solid;
+	border-top: thick #ff0000;
+	color: #FFFF33;
+}
