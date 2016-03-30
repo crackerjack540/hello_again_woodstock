@@ -3,6 +3,10 @@
 
 /* header */
 
+div.container-fluid {
+	background: black;
+}
+
 p.welcome {
 	padding-top: 50px;
  font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
@@ -48,11 +52,11 @@ td.column {
 
 div.fb-like {
 	padding-top: 15px;
+	padding-left: 10px;
 	float: right;
 }
 
 div.twitter {
-	float: right;
-	padding-right: 10px;
 	padding-top: 15px;
+	float: right;
 }
