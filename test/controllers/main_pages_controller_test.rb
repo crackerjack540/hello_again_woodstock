@@ -2,7 +2,7 @@ require 'test_helper'
 
 class MainPagesControllerTest < ActionController::TestCase
   test "should get home" do
-    get :home
+    get '/'
     assert_response :success
   end
 
@@ -17,7 +17,7 @@ class MainPagesControllerTest < ActionController::TestCase
   end
 
   test "should get contract" do
-    get :contract
+    get :cont act
     assert_response :success
   end
 
