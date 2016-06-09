@@ -3,14 +3,18 @@
 
 /* header */
 
+#header {
+	padding-bottom: 10px;
+}
+
 div.container-fluid {
 	background: black;
-	padding-left: 100px;
+	padding-left: 80px;
 	}
 
 p.welcome {
-	padding-top: 60px;
- font: 200 130px/1.5 'Pacifico', Helvetica, sans-serif;
+	padding-top: 25px;
+ font: 200 75px/1.5 'Pacifico', Helvetica, sans-serif;
   color: #FFFF33;
   text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
   background-color: #006633;
@@ -72,4 +76,8 @@ div.fb-like {
 div.twitter {
 	padding-top: 15px;
 	float: right;
+}
+
+#google-maps {
+	padding-bottom: 100px;
 }
