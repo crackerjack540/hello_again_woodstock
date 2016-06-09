@@ -10,7 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
-
+gem 'therubyracer', '~> 0.12.2'
 
 group :development, :test do
   gem 'byebug'
@@ -22,8 +22,5 @@ group :development do
   gem 'rails_12factor'
 end
 
-group :production do
-	gem 'pg'
-end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
