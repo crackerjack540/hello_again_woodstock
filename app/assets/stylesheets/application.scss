@@ -72,9 +72,14 @@ h3.top-line {
 	padding-top: 50px;
 }
 
-td.column {
-	padding-bottom: 340px;
-	padding-left: 10px;
+#col {
+	float: left;
+	width: 650px;
+}
+
+#column2 {
+	float: right;
+	width: 650px;
 }
 
 div.fb-like {
