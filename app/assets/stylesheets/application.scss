@@ -27,13 +27,14 @@ p.welcome {
 	border-top: thick #ff0000;	
   }
 
-td.hours {
-	padding-right: 75px;
-	padding-left: 25px;
+#hours {
+	float: left;
+	width: 40%;
 }
 
-td.picfront {
-	padding-left: 50px;
+#front-address {
+	float: right;
+	width: 40%;
 }
 
 ul.nav {
@@ -74,12 +75,12 @@ h3.top-line {
 
 #col {
 	float: left;
-	width: 650px;
+	width: 48%;
 }
 
 #column2 {
 	float: right;
-	width: 650px;
+	width: 48%;
 }
 
 div.fb-like {
