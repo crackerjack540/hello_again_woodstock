@@ -3,15 +3,6 @@
 
 /* header */
 
-#header {
-	padding-bottom: 10px;
-}
-
-#front {
-	padding-top: 50px;
-	padding-left: 25px;
-	padding-bottom: 100px;
-}
 
 div.container-fluid {
 	background: black;
@@ -24,26 +15,28 @@ p.welcome {
   text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
   background-color: #006633;
   border-style: solid;
-	border-top: thick #ff0000;	
+	border-top: thick #ff0000;
+	width: 99%;
+	float: right;	
   }
 
 #hours {
 	float: left;
-	width: 40%;
+	width: 45%;
 }
 
 #front-address {
 	float: right;
-	width: 40%;
+	width: 45%;
+}
+
+#front {
+	padding-top: 50px;
+	padding-right: 25px;
 }
 
 ul.nav {
 	font-size: 2em;
-}
-
-div.social {
-	float: right;
-	padding-right: 30px;
 }
 
 /* body */
