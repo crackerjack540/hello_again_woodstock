@@ -40,7 +40,7 @@ a {
 }
 
 ul.nav {
-	font-size: 2em;
+	font-size: 3em;
 }
 
 /* body */
@@ -70,6 +70,11 @@ h3.top-line {
 	padding-top: 50px;
 }
 
+h3.ladies {
+	font-size: 300%;
+	color: yellow;
+}
+
 #col {
 	float: left;
 	width: 48%;
@@ -92,7 +97,7 @@ div.twitter {
 }
 
 #google-maps {
+	float: center;
 	padding-top: 50px;
-	padding-bottom: 100px;
 }
 
