@@ -1,0 +1,4 @@
+PassengerEnabled On
+PassengerAppRoot /home/helloaga/hello_again_woodstock2
+PassengerRuby /usr/local/rubies/ruby-2.1.6/bin/ruby
+SetEnv SECRET_KEY_BASE 12b63a4b92b47411d4ce341d8405020f782c808a711afcfb4caec0d41a9d1d5ad17017002e74090ac353363bef2ed94850dba8df1a98e6868cec66d779327b61
