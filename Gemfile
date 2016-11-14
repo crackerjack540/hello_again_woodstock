@@ -11,6 +11,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
 gem 'therubyracer', '~> 0.12.2'
+gem 'capistrano', '~> 3.1.0'
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rails', '~> 1.1.1'
+gem 'capistrano-rvm', github: "capistrano/rvm"
 
 group :development, :test do
   gem 'byebug'
@@ -24,6 +28,7 @@ end
 group :production do
 gem 'pg', '~> 0.18.4'
 gem 'rails_12factor'
+
 
 end
 
