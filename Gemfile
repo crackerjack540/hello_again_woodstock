@@ -15,6 +15,7 @@ gem 'capistrano', '~> 3.4.0'
 gem 'capistrano-bundler', '~> 1.1.2'
 gem 'capistrano-rails', '~> 1.1.1'
 gem 'capistrano-rvm', github: "capistrano/rvm"
+gem 'pg'
 
 
 group :development do
@@ -22,7 +23,6 @@ group :development do
 end
 
 group :production do
-gem 'pg', '~> 0.18.4'
 gem 'rails_12factor'
 
 
