@@ -1,34 +1,32 @@
+<head>
 <p class="welcome">
 	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
  	Events
 </p>
+</head>
 
+<body>
+<%= month_calendar do |date| %>
+  <%= date %>
+<% end %>
 
-	<h3 class="ladies"> Mondays</h3>
-		<h1>Buy 6 Wings, Get 6 Free! $3 pints of Bud Lite, Miller Lite, and Yuengling!</h1>
+<details id="wing-night">
+  <summary>Wing Night!</summary>
+  <p>Buy 6 Wings, Get 6 Free!</br> $3 pints of Bud Lite, Miller Lite, and Yuengling!
+ </p>
+</details>
 
-		
-	<h3 class="ladies">Tuesdays</h3>
-		<h1> Children under 8 eat free!</h1>
-			<h2>With parent meal purchase per child</h2>
+<details id="kids-day">
+	<summary>Kids Day!</summary>
+	<p>Children under 8 eat for free with purchase of adult meal!</p>
+</details>
 
-
-	<h3 class="ladies">Wednesdays</h3>
-		<h1> Outspoken Trivia @ 7:30 PM</h1>
-
-	<h3 class="ladies">Thursdays</h3>
-		 	<h1> Ladies Night!</h1> 
- 			
- 				<h2> $4 House Margaritas & Martinis</h2>
- 			
- 				<h2></h2>
- 			
- 				<h2> 1/2 Price Glass of Wine</h2>
- 			
- 			<h1> Prince Azariyah Performs Every Thursday Night!</h1>
-
- 			<h1>1/2 Price Appetizers From 5-7 Every Thursday!</h1>
-
- 		<h3 class="ladies">Saturday, November 19</h3>
-
- 			<h1>Hope Cassity Will Perform Beginning at 7PM!</h1>
+<details id="lady-night">
+	<summary>Ladies Night!</summary>
+	<p>$4 House Margaritas & Martinis</br>
+	1/2 Price Glass of Wine</br>
+	Prince Azariyah Performs Every Thursday Night!</br>
+	1/2 Price Appetizers From 5-7 Every Thursday!</br>
+	</p>
+</details>
+</body>

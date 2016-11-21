@@ -1,6 +1,48 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.simple-calendar {
+  .day {
+  background: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-style: solid;
+  border-color: white;
+  }
+  .today {
+  background: white;
+  text-color: black;
+  }
+  .wday-1 {
+  background: red;
+  }
+  .wday-2 {
+  background: blue;
+  }
+  .wday-4 {
+  background: #FE01C3;
+  }
+  .past {
+  background: gray;
+  }
+ }
+
+#wing-night {
+	background: red;
+	font-size: 2em;
+}
+
+#kids-day {
+	background: blue;
+	font-size: 2em;
+}
+
+#lady-night {
+	background: #FE01C3;
+	font-size: 2em;
+	margin-bottom: 100px;
+}
+
 /* header */
 
 
@@ -52,6 +94,7 @@ body {
 	color: white;
 	padding-top: 50px;
 	padding-left: 20px;
+	badding-bottom: 50px;
 	text-align: center;
 }
 
