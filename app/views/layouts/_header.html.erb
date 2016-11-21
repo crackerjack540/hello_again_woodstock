@@ -2,16 +2,16 @@
 <div id="header">
  <%= image_tag('hello-logo.png', :height => 200, :width => 300, :alt => 'x') %>
 </div>
-<header class="navbar navbar-inverse">
+<header class="navbar navbar">
   <div class="container-fluid">
 
-      <ul class="nav navbar-nav navbar-center" data-no-turbolink>
+      <ul class="nav navbar-nav navbar-fixed-top" data-no-turbolink>
         <li><%= link_to "Home",   root_path %></li>
         <li><%= link_to "Menu", main_pages_menu_path %></li>
         <li><%= link_to "Events", main_pages_about_path %></li>
         <li><%= link_to "Contact Us", main_pages_contact_path %></li>
+       </ul>
       
-      </ul>
  <div class="social"> 
 
     <script>(function(d, s, id) {
@@ -29,9 +29,7 @@
  data-action="like" data-show-faces="true" 
  data-share="true">
  </div>
- 
+  </div>
   </div>
 
-  </div>
-  </div>
 </header>   

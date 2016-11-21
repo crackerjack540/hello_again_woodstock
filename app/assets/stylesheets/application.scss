@@ -11,24 +11,15 @@ div.container-fluid {
 
 p.welcome {
  font: 200 75px/1.5 'Pacifico', Helvetica, sans-serif;
-  color: #FFFF33;
+  color: yellow;
   text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
-  background-color: #006633;
+  background-color: #006400;
   border-style: solid;
 	border-top: thick #ff0000;
 	width: 99%;
 	float: right;	
   }
 
-#hours {
-	float: left;
-	width: 45%;
-}
-
-#front-address {
-	float: right;
-	width: 45%;
-}
 
 a {
 	color: #FFFF33;
@@ -36,14 +27,25 @@ a {
 
 #front {
 	padding-top: 50px;
-	padding-right: 25px;
 }
 
 ul.nav {
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 /* body */
+
+/* home page */
+
+#front-left {
+	float: left;
+	width: 49%;
+}
+
+#front-right {
+	float: right;
+	width: 50%;
+}
 
 body {
 	background-color: black;
@@ -71,7 +73,7 @@ h3.top-line {
 }
 
 h3.ladies {
-	font-size: 250%;
+	font-size: 2em;
 	color: yellow;
 }
 
@@ -86,18 +88,11 @@ h3.ladies {
 }
 
 div.fb-like {
-	padding-top: 15px;
 	padding-left: 10px;
 	float: right;
 }
 
-div.twitter {
-	padding-top: 15px;
-	float: right;
-}
-
 #google-maps {
-	float: center;
 	padding-top: 50px;
 }
 
