@@ -1,3 +1,9 @@
+/*
+*= require owl.carousel
+*= require owl.theme
+*/
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -139,3 +145,11 @@ div.fb-like {
 	padding-top: 50px;
 }
 
+#hello-carousel .item{
+  margin: 3px;
+}
+#hello-carousel .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
