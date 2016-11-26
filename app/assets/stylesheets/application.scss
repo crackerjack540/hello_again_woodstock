@@ -1,6 +1,7 @@
 /*
 *= require owl.carousel
 *= require owl.theme
+*= require simple_calendar
 */
 
 
@@ -59,9 +60,9 @@ div.container-fluid {
 
 p.welcome {
  font: 200 75px/1.5 'Pacifico', Helvetica, sans-serif;
-  color: yellow;
-  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
-  background-color: #006400;
+  color: white;
+  text-shadow: 6px 6px 6px rgba(1,1,1,0.1), 7px 7px 0px rgba(1,1,1,1.05);
+  background: #194307;
   border-style: solid;
 	border-top: thick #ff0000;
 	width: 99%;
@@ -70,7 +71,7 @@ p.welcome {
 
 
 a {
-	color: #FFFF33;
+	color: white;
 }
 
 #front {
@@ -96,7 +97,7 @@ ul.nav {
 }
 
 body {
-	background-color: black;
+	background: black;
 	color: white;
 	padding-top: 50px;
 	padding-left: 20px;
@@ -105,10 +106,10 @@ body {
 }
 
 h1.apps {
-	background-color: #006633;
+	background-color: #194307;
 	border-style: solid;
 	border-top: thick #ff0000;
-	color: #FFFF33;
+	color: white;
 	padding-top: 10px;
 }
 
@@ -123,7 +124,7 @@ h3.top-line {
 
 h3.ladies {
 	font-size: 2em;
-	color: yellow;
+	color: white;
 }
 
 #col {
@@ -142,11 +143,11 @@ div.fb-like {
 }
 
 #google-maps {
-	padding-top: 50px;
+	padding-top: 25px;
 }
 
 #hello-carousel .item{
-  margin: 3px;
+  margin: 4px;
 }
 #hello-carousel .item img{
   display: block;
